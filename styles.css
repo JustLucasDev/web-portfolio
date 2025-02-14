@@ -220,3 +220,44 @@ section {
     margin-top: 35px;
   }
 }
+
+
+
+/* Estilo para a seção de Skills */
+.skillsSection {
+  margin-top: px; /* Espaçamento acima da seção */
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--secondary-color);
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: var(--bg-color);
+  transition: opacity 200ms;
+}
+
+.skillItem:hover {
+  opacity: 0.8; /* Efeito de hover */
+}
+
+.skillItem i {
+  font-size: 1.2em;
+}
+
+.skillItem p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+hr {
+  color: var(--primary-color);
+}

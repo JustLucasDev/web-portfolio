@@ -29,21 +29,49 @@
   <main>
     <section>
 
-      <div class="statsContainer">
-        <div class="imgContainer">
-          <img
-            src="https://media.licdn.com/dms/image/v2/D4D03AQEe9srASFEUVQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725318285742?e=1744848000&v=beta&t=CkdZ6DlXVZf7BkyDeIyQoDq2mVnOLs6ZzjHeufmTnJY"
-            alt="profile-img" />
-
-        </div>
-        <p class="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, asperiores? Aut eos autem quae esse eaque laborum sequi vitae non excepturi saepe explicabo, nobis alias est aliquam natus neque. Officiis.</p>
-        <div>
-
-        </div>
-
-
+      <!-- Nome e descrição -->
+      <div class="nameContainer">
+        <h1>Lucas Matos</h1>
+        <p class="darkerText">Sou desenvolvedor de software, apaixonado por tecnologia e sempre buscando aprender coisas
+          novas. </p>
       </div>
 
+      <hr>
+
+      <!-- Seção de Skills movida para fora do statsContainer -->
+      <section class="skillsSection">
+        <p class="">Skills</p>
+        <div class="skillsContainer">
+          <div class="skillItem darkerText">
+            <i class="fa-brands fa-js"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="skillItem darkerText">
+            <i class="fa-brands fa-python"></i>
+            <p>Python</p>
+          </div>
+          <div class="skillItem darkerText">
+            <i class="fa-brands fa-react"></i>
+            <p>React</p>
+          </div>
+          <div class="skillItem darkerText">
+            <i class="fa-brands fa-node"></i>
+            <p>Node.js</p>
+          </div>
+          <div class="skillItem darkerText">
+            <i class="fa-solid fa-database"></i>
+            <p>SQL</p>
+          </div>
+          <div class="skillItem darkerText">
+            <i class="fa-brands fa-git-alt"></i>
+            <p>Git</p>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      
       <a href="./other/Currículo.pdf" download class="outreach darkerText">
         <i class="fa-solid fa-file"></i>
         <p>Resume</p>
@@ -53,8 +81,10 @@
         <i class="fa-solid fa-arrow-right"></i>
         <p>Email me</p>
       </a>
-
     </section>
+
+    <hr>
+
     <section class="projectContainer">
       <p class="darkerText headerText">Latest Projects</p>
       <div class="projectItem">
